@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 0px;
+}
+
+/* terminar de poner class a los h1 */
+h1{
+    margin-left: 10px;
+}
+
+/* navbar */
+
+.nav-container{
+    margin-top: 2px;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    padding: 50px;
+}
+.navbar-logo{
+    width: 10%;
+    background-color: white;
+}
+
+/* banner */
+
+main{
+    background-color: black;
+}
+.banner{
+    margin-top: 1px;
+    padding: 50px;
+}
+.banner-container{
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+    width: 600px;
+}
+.end-main{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+/* metodo */
+
+.metodo{
+    display: flex;
+    justify-content: start;
+    margin-top: 1px;
+    padding: 50px;
+}
+.metodo-text{
+    padding: 50px;
+}
+.end-metodo{
+    display: flex;
+    margin-left: 50px;
+    padding: 50px;
+}
+
+/* clientes */
+
+.clientes{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+.ruleta-clientes{
+    display: flex;
+    justify-content: center;
+}
+
+/* proyectos */
+
+.proyectos{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+.img-proyectos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 40px;
+}
+.img_1{
+    width: 50%;
+}
+.img_2{
+    width: 50%;
+}
+.img_3{
+    width: 50%;
+}
+.img_3{
+    width: 50%;
+}
+.img_4{
+    width: 50%;
+}
+.img_5{
+    width: 50%;
+}
+.img_6{
+    width: 50%;
+}
+
+/* premios */
+
+.premios{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+.premio1{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    padding: 10px;
+}
+.premio2{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+/* contacto */
+
+.contacto{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+.form{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    padding: 1s0px;
+}
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    background-color: black;
+}
